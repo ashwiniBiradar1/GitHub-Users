@@ -1,0 +1,14 @@
+  <div>Search For Name:</div>
+
+  <input type='text' #name>
+  
+<button class='btn'  (click)="getUserDetails(name.value)">
+  Search 
+</button>
+
+<!--div *ngFor= "let dt of data"-->
+
+  <ul>{{respString}}</ul>
+   
+
+
