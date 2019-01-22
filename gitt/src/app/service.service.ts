@@ -12,7 +12,8 @@ import {Iname } from './namforms';
 export class ServiceService {
  name;
   data;
-  url="https://api.github.com/users/";
+  // url="https://api.github.com/users/";
+ url="https://github.com/";
   //url="https://github.com/users/octocat";
 constructor(private http: Http)
 {}
